@@ -2,13 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth, signInWithEmailAndPassword, signInWithPopup, GoogleAuthProvider } from "firebase/auth"
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBD4K2P4KQpEDx5k3jSgd-toDR1e9I8ttw",
-    authDomain: "fir-login-ff9fa.firebaseapp.com",
-    projectId: "fir-login-ff9fa",
-    storageBucket: "fir-login-ff9fa.firebasestorage.app",
-    messagingSenderId: "24047318192",
-    appId: "1:24047318192:web:e55df00f654fb06e77f775",
-    measurementId: "G-MFBC5SHQW2"
+    // ENTER YOUR FIREBASE API KEY
 };
 
 // Initialize Firebase
